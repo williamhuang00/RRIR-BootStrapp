@@ -13,5 +13,11 @@ namespace RRIR
         {
 
         }
+
+        protected void btnStartApplication_Click(object sender, EventArgs e)
+        {
+            Server.Transfer("applicationStart.aspx");
+
+        }
     }
 }

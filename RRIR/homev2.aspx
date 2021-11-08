@@ -18,6 +18,11 @@
     <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
     <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <style type="text/css">
+        .auto-style1 {
+            height: 22px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -75,22 +80,22 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>
-                            <input type="checkbox"></td>
-                        <td>Application Submitted</td>
-                        <td style="text-align: center;">Requires Resubmission</td>
-                        <td style="text-align: center;">4-20-2021</td>
+                        <td class="auto-style1">
+                            <input type="checkbox" checked="true" onclick="return false;"></td>
+                        <td class="auto-style1">Application Submitted</td>
+                        <td style="text-align: center;" class="auto-style1">Requires Resubmission</td>
+                        <td style="text-align: center;" class="auto-style1">4-20-2021</td>
                     </tr>
                     <tr>
                         <td style="background-color: #d1cbcc;">
-                            <input type="checkbox"></td>
+                            <input type="checkbox" checked="true" onclick="return false;"></td>
                         <td style="background-color: #d1cbcc;">Upload Syllabus &amp; Timeline</td>
                         <td style="background-color: #d1cbcc; text-align: center;">Requires Resubmission</td>
                         <td style="background-color: #d1cbcc; text-align: center;">4-20-2021</td>
                     </tr>
                     <tr>
                         <td>
-                            <input type="checkbox"></td>
+                            <input type="checkbox" checked="true" onclick="return false;"></td>
                         <td>Upload Research Proposal</td>
                         <td style="text-align: center;">Requires Resubmission</td>
                         <td style="text-align: center;">4-20-2021</td>
@@ -113,7 +118,7 @@
             </table>
         </div>
         <div style="height: 50px; /*background: red; */">
-            <button class="btn btn-primary" type="button" style="float: right; margin-right: 5%; margin-top: 1%; background-color: #292c2f; border-radius: 0%; border: none;">Submit New Application</button>
+            <asp:button runat="server" ID="btnStartApplication" Text="Submit New Application" class="btn btn-primary" type="button" style="float: right; margin-right: 5%; margin-top: 1%; background-color: #292c2f; border-radius: 0%; border: none;" OnClick="btnStartApplication_Click"></asp:button>
             <button class="btn btn-primary" type="button" style="float: right; margin-right: 1.5%; margin-top: 1%; background-color: #292c2f; border-radius: 0%; border: none;">Continue Application</button></div>
         <footer class="footer-dark" style="margin-top: 450px; height: 110px; background: rgb(41,44,47);"></footer>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
