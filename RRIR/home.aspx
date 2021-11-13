@@ -76,35 +76,35 @@
                 <tbody>
                     <tr>
                         <td>
-                            <input type="checkbox"></td>
+                            <input type="checkbox" disabled="disabled"></td>
                         <td>Application Submitted</td>
                         <td style="text-align: center;">Not Started</td>
                         <td style="text-align: center;">Not Available</td>
                     </tr>
                     <tr>
                         <td style="background-color: #d1cbcc;">
-                            <input type="checkbox"></td>
+                            <input type="checkbox" disabled="disabled"></td>
                         <td style="background-color: #d1cbcc;">Upload Syllabus &amp; Timeline</td>
                         <td style="background-color: #d1cbcc; text-align: center;">Not Started</td>
                         <td style="background-color: #d1cbcc; text-align: center;">Not Available</td>
                     </tr>
                     <tr>
                         <td>
-                            <input type="checkbox"></td>
+                            <input type="checkbox" disabled="disabled"></td>
                         <td>Upload Research Proposal</td>
                         <td style="text-align: center;">Not Started</td>
                         <td style="text-align: center;">Not Available</td>
                     </tr>
                     <tr>
                         <td style="background-color: #d1cbcc;">
-                            <input type="checkbox"></td>
+                            <input type="checkbox" disabled="disabled"></td>
                         <td style="background-color: #d1cbcc;">Obtain Approval from Research Advisor</td>
                         <td style="background-color: #d1cbcc; text-align: center;">Not Started</td>
                         <td style="background-color: #d1cbcc; text-align: center;">Not Available</td>
                     </tr>
                     <tr>
                         <td>
-                            <input type="checkbox"></td>
+                            <input type="checkbox" disabled="disabled"></td>
                         <td>Obtain Approval from CS Faculty Advisor</td>
                         <td style="text-align: center;">Not Started</td>
                         <td style="text-align: center;">Not Available</td>
@@ -112,7 +112,7 @@
                 </tbody>
             </table>
         </div>
-        <asp:Button ID="btnStartApplication" runat="server" Text="Submit New Application" class="btn btn-primary" type="button" style="float: right; margin-right: 5%; margin-top: 1%; background-color: #292c2f; border-radius: 0%; border: none;" OnClick="btnStartApplication_Click">
+        <asp:Button ID="btnStartApplication" runat="server" Text="Submit New Application" class="btn btn-primary btn-dark" type="button" style="float: right; margin-right: 5%; margin-top: 1%; background-color: #292c2f; border-radius: 0%; border: none;" OnClick="btnStartApplication_Click">
         </asp:Button>
         <footer class="footer-dark" style="margin-top: 450px; height: 110px; background: rgb(41,44,47);"></footer>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>

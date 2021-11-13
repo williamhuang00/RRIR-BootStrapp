@@ -36,7 +36,8 @@
                 </h1>
                 <div class="d-flex justify-content-center" style="margin-bottom: 31px; height: 0;">
                     <div class="searchbar" style="background: var(--bs-gray-500); height: 44px; width: 224px;">
-                        <input type="text" class="search_input" placeholder="Search..." style="width: 150px; height: 21px;"><a class="search_icon" href="#" style="height: 22px;"><i class="fas fa-search"></i></a></div>
+                        <input type="text" class="search_input" placeholder="Search..." style="width: 150px; height: 21px;"><a class="search_icon" href="#" style="height: 22px;"><i class="fas fa-search"></i></a>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -102,14 +103,14 @@
                     </tr>
                     <tr>
                         <td style="background-color: #d1cbcc;">
-                            <input type="checkbox"></td>
+                            <input type="checkbox" disabled="disabled"></td>
                         <td style="background-color: #d1cbcc;">Obtain Approval from Research Advisor</td>
                         <td style="background-color: #d1cbcc; text-align: center;">Pending Review</td>
                         <td style="background-color: #d1cbcc; text-align: center;">4-20-2021</td>
                     </tr>
                     <tr>
                         <td>
-                            <input type="checkbox"></td>
+                            <input type="checkbox" disabled="disabled"></td>
                         <td>Obtain Approval from CS Faculty Advisor</td>
                         <td style="text-align: center;">Not Started</td>
                         <td style="text-align: center;">Not Available</td>
@@ -118,8 +119,9 @@
             </table>
         </div>
         <div style="height: 50px; /*background: red; */">
-            <asp:button runat="server" ID="btnStartApplication" Text="Submit New Application" class="btn btn-primary" type="button" style="float: right; margin-right: 5%; margin-top: 1%; background-color: #292c2f; border-radius: 0%; border: none;" OnClick="btnStartApplication_Click"></asp:button>
-            <button class="btn btn-primary" type="button" style="float: right; margin-right: 1.5%; margin-top: 1%; background-color: #292c2f; border-radius: 0%; border: none;">Continue Application</button></div>
+            <asp:Button runat="server" ID="btnStartApplication" Text="Submit New Application" class="btn btn-primary btn-dark" type="button" Style="float: right; margin-right: 5%; margin-top: 1%; background-color: #292c2f; border-radius: 0%; border: none;" OnClick="btnStartApplication_Click"></asp:Button>
+            <button class="btn btn-primary btn-dark" type="button" style="float: right; margin-right: 1.5%; margin-top: 1%; background-color: #292c2f; border-radius: 0%; border: none;">Continue Application</button>
+        </div>
         <footer class="footer-dark" style="margin-top: 450px; height: 110px; background: rgb(41,44,47);"></footer>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     </form>

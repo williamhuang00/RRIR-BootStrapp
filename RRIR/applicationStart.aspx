@@ -52,183 +52,159 @@
             </div>
         </nav>
         <label class="form-label" style="text-align: center; display: block; margin-top: 2.5%;">New applicants please complete the form below to start your application</label><label class="form-label" style="text-align: center; display: block; margin-top: 2.5%;">Current Term: F2021</label>
-        <div style="height: 100px; /*background-color: blue; */width: 47%; margin-left: 2%; float: left; display: inline-block;">
-            <div style="/*height: 32%; */background-color: #a51b33;">
-                <label class="form-label" style="display: block; text-align: center; color: white; padding-top: 1%; padding-bottom: 1%;">Applicant Information</label></div>
-            <div style="/*background-color: black; *//*height: 300px; */text-align: right;">
-                <div class="table-responsive" style="overflow-x: hidden; /*border: none; */">
-                    <table class="table">
-                        <tbody>
-                            <tr></tr>
-                            <tr>
-                                <td>
-                                    <label class="form-label" style="font-weight: bold;">TU ID:&nbsp;</label><label class="form-label">999888777</label></td>
-                                <td>
-                                    <label class="form-label" style="font-weight: bold;">
-                                        Major:&nbsp;&nbsp;<span style="color: red; margin-left: 5px; margin-right: 5px;">*</span><select style="margin-top: 1%;">
-                                            <optgroup label="Choose your major">
-                                                <option value="12" selected="">Computer Science</option>
-                                                <option value="13">Computer Information Science</option>
-                                                <option value="14">Data Science</option>
-                                            </optgroup>
-                                        </select></label></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <label class="form-label" style="font-weight: bold;">First Name:&nbsp;</label><label class="form-label" style="/*margin-left: 15%; */">Rodger</label></td>
-                                <td style="/*text-align: left; */">
-                                    <label class="form-label" style="font-weight: bold;">Email:&nbsp;&nbsp;</label><label class="form-label" style="/*margin-left: 15%; */">RodgerSmith@temple.edu</label></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <label class="form-label" style="font-weight: bold;">Last Name:&nbsp;</label><label class="form-label" style="/*margin-left: 15%; */">Smith</label></td>
-                                <td>
-                                    <label class="form-label" style="font-weight: bold;">Term:&nbsp;&nbsp;<span style="color: red; margin-left: 5px; margin-right: 5px;">*</span></label>
-                                    <div class="form-check" style="display: inline-block;">
-                                        <input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Fa</label></div>
-                                    <div class="form-check" style="display: inline-block;">
-                                        <input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Sp</label></div>
-                                    <div class="form-check" style="display: inline-block;">
-                                        <input class="form-check-input" type="checkbox" id="formCheck-3"><label class="form-check-label" for="formCheck-3">Su</label></div>
-                                </td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <label class="form-label" style="font-weight: bold;">Graduation Date:&nbsp;</label><label class="form-label" style="/*margin-left: 15%; */">May 2022</label></td>
-                                <td></td>
-                            </tr>
-                            <tr></tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div style="/*background-color: black; *//*height: 200px; */text-align: left;">
-                    <div style="/*height: 32%; */background-color: #a51b33;">
-                        <label class="form-label" style="display: block; text-align: center; color: white; padding-top: 1%; padding-bottom: 1%;">Professor Information</label></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-center" style="background-color: #a51b33; color: white;">
+                        <label class="form-label">Applicant Information</label></div>
                     <div class="table-responsive">
                         <table class="table">
+                            <thead>
+                                <tr></tr>
+                            </thead>
                             <tbody>
                                 <tr></tr>
                                 <tr>
-                                    <td style="width: 35%; text-align: right;">Professor First Name:<span style="color: red; margin-left: 5px; margin-right: 5px;">*</span></td>
                                     <td>
-                                        <input type="text" style="/*float: left; */margin-left: 4%; width: 50%; border: solid black .25px;"></td>
+                                        <label class="form-label formLabel">TU ID:</label><label class="form-label">999888777</label></td>
+                                    <td>
+                                        <label class="form-label formLabel">Major:</label><label class="form-label asterisk">*</label><select>
+                                                <option value="13">Computer Science</option>
+                                                <option value="14">Math & Computer Science</option>
+                                        </select></td>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: right;">
-                                        <label class="form-label" style="/*float: left; */">Professor Last Name:</label><span style="color: red; margin-left: 5px; margin-right: 5px;">*</span></td>
                                     <td>
-                                        <input type="text" style="/*float: left; */margin-left: 4%; width: 50%; border: solid black .25px;"></td>
+                                        <label class="form-label formLabel">First Name:</label><label class="form-label">Rodger</label></td>
+                                    <td>
+                                        <label class="form-label formLabel">Email:</label><label class="form-label">RodgerSmith@temple.edu</label></td>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: right;">
-                                        <label class="form-label" style="/*float: left; */">Research Advisor Email:</label><span style="color: red; margin-left: 5px; margin-right: 5px;">*</span></td>
                                     <td>
-                                        <input type="text" style="/*float: left; */margin-left: 4%; width: 50%; border: solid black .25px;"></td>
+                                        <label class="form-label formLabel">Last Name:</label><label class="form-label">Smith</label></td>
+                                    <td>
+                                        <label class="form-label formLabel">Term:</label><label class="form-label asterisk">*</label><input type="checkbox"><label class="form-label yearLabel">Fa</label><input type="checkbox"><label class="form-label yearLabel">Sp</label><input type="checkbox"><label class="form-label">Su</label></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label class="form-label formLabel">Graduation Date:</label><label class="form-label">May 2022</label></td>
+                                    <td>
+                                        <label class="form-label formLabel"></label>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-                    <div style="text-align: left;"></div>
-                    <div style="text-align: left;"></div>
-                    <div style="text-align: left;"></div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-center" style="background-color: #a51b33; color: white;">
+                        <label class="form-label">Application Requirements</label></div>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr></tr>
+                            </thead>
+                            <tbody>
+                                <tr></tr>
+                                <tr>
+                                    <td class="col-2" style="font-size: 12px;">Check all that apply</td>
+                                    <td class="col-5">Requirements</td>
+                                    <td class="col-8">Term Completed</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-2" style="font-size: 12px;">
+                                        <label class="form-label asterisk">*</label><input type="checkbox"></td>
+                                    <td class="col-5">Completed CIS 4282</td>
+                                    <td class="col-6">
+                                        <input type="checkbox"><label class="form-label yearLabel">Fa</label><input type="checkbox"><label class="form-label yearLabel">Sp</label><input type="checkbox"><label class="form-label yearLabel">Su</label><input type="text" style="width: 30%;"><label class="form-label">Yr.</label></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-2" style="font-size: 12px;">
+                                        <label class="form-label asterisk">*</label><input type="checkbox"></td>
+                                    <td class="col-5">Completed CIS 4397</td>
+                                    <td class="col-6">
+                                        <input type="checkbox"><label class="form-label yearLabel">Fa</label><input type="checkbox"><label class="form-label yearLabel">Sp</label><input type="checkbox"><label class="form-label yearLabel">Su</label><input type="text" style="width: 30%;"><label class="form-label">Yr.</label></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-2" style="font-size: 12px;">
+                                        <label class="form-label asterisk">*</label><input type="checkbox"></td>
+                                    <td class="col-5">Completed CIS 3296</td>
+                                    <td class="col-6">
+                                        <input type="checkbox"><label class="form-label yearLabel">Fa</label><input type="checkbox"><label class="form-label yearLabel">Sp</label><input type="checkbox"><label class="form-label yearLabel">Su</label><input type="text" style="width: 30%;"><label class="form-label">Yr.</label></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-2" style="font-size: 12px;">
+                                        <label class="form-label asterisk">*</label><input type="checkbox"></td>
+                                    <td class="col-5">At least a 3.0 GPA overall</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-2" style="font-size: 12px;">
+                                        <label class="form-label asterisk">*</label><input type="checkbox"></td>
+                                    <td class="col-5">At least a 3.3 GPA in your major</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div style="height: 100px; /*background-color: blue; */width: 45.5%; /*margin-left: 10%; */margin-right: 2%; float: right; display: inline-block;">
-            <div style="height: 32%; background-color: #a51b33;">
-                <label class="form-label" style="display: block; text-align: center; color: white; padding-top: 1%; padding-bottom: 1%;">Application Requirements</label></div>
-            <div style="/*background-color: blue; */height: 200px;">
-                <div class="table-responsive">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th style="width: 20%; font-size: 12px;">Check all that apply</th>
-                                <th style="width: 35%;">Requirements</th>
-                                <th>Term Completed</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td style="border: solid 1px black;"><span style="color: red; margin-left: 5px; margin-right: 5px;">*</span><input type="checkbox"></td>
-                                <td style="border: solid 1px black;">Completed CIS 4282</td>
-                                <td style="border: solid 1px black;">
-                                    <div class="form-check" style="display: inline-block;">
-                                        <input class="form-check-input" type="checkbox" id="formCheck-4"><label class="form-check-label" for="formCheck-4">Fa.</label></div>
-                                    <div class="form-check" style="display: inline-block;">
-                                        <input class="form-check-input" type="checkbox" id="formCheck-6"><label class="form-check-label" for="formCheck-4">Sp.</label></div>
-                                    <div class="form-check" style="display: inline-block;">
-                                        <input class="form-check-input" type="checkbox" id="formCheck-5"><label class="form-check-label" for="formCheck-4">Su.</label></div>
-                                    <input type="text" style="width: 20%; margin-top: 1%;"><label class="form-label">Yr.</label>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="border: solid 1px black;"><span style="color: red; margin-left: 5px; margin-right: 5px;">*</span><input type="checkbox"></td>
-                                <td style="border: solid 1px black;">Completed CIS 4397</td>
-                                <td style="border: solid 1px black;">
-                                    <div class="form-check" style="display: inline-block;">
-                                        <input class="form-check-input" type="checkbox" id="formCheck-7"><label class="form-check-label" for="formCheck-4">Fa.</label></div>
-                                    <div class="form-check" style="display: inline-block;">
-                                        <input class="form-check-input" type="checkbox" id="formCheck-8"><label class="form-check-label" for="formCheck-4">Sp.</label></div>
-                                    <div class="form-check" style="display: inline-block;">
-                                        <input class="form-check-input" type="checkbox" id="formCheck-9"><label class="form-check-label" for="formCheck-4">Su.</label></div>
-                                    <input type="text" style="width: 20%; margin-top: 1%;"><label class="form-label">Yr.</label>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="border: solid 1px black;"><span style="color: red; margin-left: 5px; margin-right: 5px;">*</span><input type="checkbox"></td>
-                                <td style="border: solid 1px black;">Completed CIS 3296</td>
-                                <td style="border: solid 1px black;">
-                                    <div class="form-check" style="display: inline-block;">
-                                        <input class="form-check-input" type="checkbox" id="formCheck-10"><label class="form-check-label" for="formCheck-4">Fa.</label></div>
-                                    <div class="form-check" style="display: inline-block;">
-                                        <input class="form-check-input" type="checkbox" id="formCheck-11"><label class="form-check-label" for="formCheck-4">Sp.</label></div>
-                                    <div class="form-check" style="display: inline-block;">
-                                        <input class="form-check-input" type="checkbox" id="formCheck-12"><label class="form-check-label" for="formCheck-4">Su.</label></div>
-                                    <input type="text" style="width: 20%; margin-top: 1%;"><label class="form-label">Yr.</label>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="border: solid 1px black;"><span style="color: red; margin-left: 5px; margin-right: 5px;">*</span><input type="checkbox"></td>
-                                <td style="border: solid 1px black;">At least a 3.0 GPA overall</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td style="border: solid 1px black;"><span style="color: red; margin-left: 5px; margin-right: 5px;">*</span><input type="checkbox"></td>
-                                <td style="border: solid 1px black;">At least a 3.3 GPA in your major</td>
-                                <td></td>
-                            </tr>
-                        </tbody>
-                    </table>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-center" style="background-color: #a51b33; color: white;">
+                        <label class="form-label">Professor Information</label></div>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr></tr>
+                            </thead>
+                            <tbody>
+                                <tr></tr>
+                                <tr class="text-center">
+                                    <td>
+                                        <label class="form-label formLabel">Professor First Name:</label><label class="form-label asterisk">*</label><input type="text"></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">
+                                        <label class="form-label formLabel">Professor Last Name:</label><label class="form-label asterisk">*</label><input type="text"></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">
+                                        <label class="form-label formLabel">Research Advisor Email:</label><label class="form-label asterisk">*</label><input type="text"></td>
+                                </tr>
+                                <tr></tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-                <div style="/*height: 100px; *//*background-color: red; */">
+                <div class="col-lg-6">
                     <div class="table-responsive">
                         <table class="table">
                             <tbody>
                                 <tr></tr>
                                 <tr>
-                                    <td style="width: 25%;"><span style="color: red; margin-left: 5px; margin-right: 5px;">*</span>Student must apply by the following dates:</td>
+                                    <td>
+                                        <label class="form-label asterisk">*</label><label class="form-label">Student must apply by the following dates:</label></td>
                                 </tr>
                                 <tr>
                                     <td>
                                         <ul>
                                             <li>Spring 11/15</li>
-                                            <li>Summer I (12A) 3/15</li>
-     Fall 4/15</li>
+                                            <li>Summer 1 (12A) 3/15</li>
+                                            <li>Fall 4/15</li>
                                         </ul>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td>
-                                        <asp:button runat="server" ID="btnNextPage" Text="Next Page" class="btn btn-primary" type="button" style="float: right; /*margin-right: 5%; */background-color: #292c2f; border-radius: 0%; border: none; width: 30%;" OnClick="btnNextPage_Click"></asp:button></td>
-                                </tr>
+                                <tr></tr>
                             </tbody>
                         </table>
                     </div>
+                    <asp:Button ID="btnNextPage" runat="server" Text="Next Page" class="btn btn-primary float-end btn-dark" type="button" OnClick="btnNextPage_Click"></asp:Button>
+                    </asp:Button>
+           
                 </div>
             </div>
         </div>
-        <footer class="footer-dark" style="margin-top: 700px; height: 110px; background: rgb(41,44,47); /*position: absolute; *//*bottom: 0; */"></footer>
+        <footer class="footer-dark" style="margin-top: 450px; height: 110px; background: rgb(41,44,47);"></footer>
+
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     </form>
 </body>

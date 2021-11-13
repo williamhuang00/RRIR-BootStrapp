@@ -106,3 +106,21 @@ td {
   border: none;
 }
 
+.form-label {
+  margin-top: .5rem;
+}
+
+.formLabel {
+  font-weight: bold;
+}
+
+.asterisk {
+  color: var(--bs-danger);
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+
+.yearLabel {
+  margin-right: 1.5%;
+}
+

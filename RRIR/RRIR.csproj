@@ -88,6 +88,7 @@
     <Content Include="assets\img\Rectangle.png" />
     <Content Include="home.aspx" />
     <Content Include="homev2.aspx" />
+    <Content Include="newstart.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
